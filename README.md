@@ -1,2 +1,3 @@
 # TP-MERCADO-LIBRE
-trabajo práctico n°2
+Trabajo Práctico N°2 
+Estructura de mercado libre con HTML.
