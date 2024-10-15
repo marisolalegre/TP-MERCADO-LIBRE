@@ -1,0 +1,51 @@
+*{ 
+     margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+  font-family: 'roboto';
+} 
+
+.login{
+    width:400px;
+    height: 350px;
+    background:#ebebeb; 
+    padding: 20px 30 px;
+}
+
+.bottons{ 
+    width: 200px;
+    border-radius: 5px;
+    margin: 30px 10px 10px 60px;
+    padding: 12px 10px;
+    background: white;
+    border: none;
+}
+
+.Enviar{
+    width: 200px;
+    border-radius: 5px;
+    margin: 20px 50px 50px 60px ;
+    padding: 12px 10px;
+    background: #1259c3;
+    border: none;
+    color:white;
+}
+
+.compra{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.nav{
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+#position{
+    position: relative;
+    left: 70px;
+
+}

@@ -1,5 +1,6 @@
 .header {
   background-color: #ffe600;
+
 }
 
 .header a{ 
@@ -7,3 +8,16 @@
     color:black
 }
 
+.burger-menu{
+  text-align: center;
+}
+
+.iconos{
+  text-align: center;
+  color:#1259c3;
+  font-size: 2em;
+}
+
+.footer{
+  background-color: #ebebeb;
+}

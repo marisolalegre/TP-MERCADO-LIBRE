@@ -2,36 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>register</title>
-    </head>
-    <body>
-                    <label for="name">Nombre y Apellido</label>
-                    <input type="nombre" placeholder=" nombre y apellido"><br>
-                    <label for="nombre"> Nombre de usuari@</label>
-                    <input type="address" placeholder="nombre de usuari@"><br>
-                    <label for="Email"> Email</label>
-                    <input type="email"  placeholder= "ingrese su email"><br>
-                    <label for="datos"> Fecha de nacimiento</label>
-                    <input type="date"  placeholder= "Ingrese Fecha de nacimiento"><br>
-                    <label for="usuario"> Domicilio </label>
-                    <input type="address"  placeholder= "Ingrese su domicilio"><br>
-                    <label for="">¿Deseas?</label>
-                    <input type="checkbox"  name= "Perfil del usuario" value="Comprar"> Comprar</input>
-                    <input type="checkbox"  name= "Perfil del usuario" value="vender"> vender </input><br>
-                    <label for="">Categoría de intereses</label>
-                    <input type="checkbox"  name= "Perfil del usuario" value="Electro"> Electro</input>
-                    <input type="checkbox"  name= "Perfil del usuario" value="Moda"> Moda</input>
-                    <input type="checkbox"  name= "Perfil del usuario" value="Hogar"> Hogar</input>
-                    <input type="checkbox"  name= "Perfil del usuario" value="Jugueteria"> Jugueteria</input>
-                    <input type="checkbox"  name= "Perfil del usuario" value="Vida sana"> Vida Sana</input><br>
-                   
-                    <label for="avatar"> Foto del usuario: </label>
-                      <input type="file" name="avatar" id="avatar"><br>
-                      <label for="Contraseña"> Contraseña</label>
-                      <input type="password" name="Contraseña" placeholder="Contraseña"><br>
-                      <label for="Confirmar contraseña"> Confirmar contraseña</label>
-                      <input type="password" name="Contraseña" placeholder="Confirmar Contraseña"><br>
-                      <button type="submit"> Enviar</button>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/1f1317d32f.js"
+      crossorigin="anonymous"
+    ></script>
+    <body class="fondo">
+          
+                    <input  class="datos" type="text" name="Nombre y apellido" valua="" placeholder=" Nombre y Apellido"><br>
+                    <input  class="datos"type="address" name= "Nombre del usuari@" valua="" placeholder="Nombre de usuari@"><br>
+                    <input class="datos" type="email" name="Email" valua=""  placeholder= "Ingrese su Email">
+              <h2 class="nacimientos"> Fecha de nacimiento</h2>
+                    <input class="datos" type="date" name="Fecha de nacimiento" valua="" placeholder= "Fecha de Nacimiento"><br>
+                    <input  class="datos"type="address" name="Domicilio" value="" placeholder= "Domicilio">
+                    <br>
+              <h2 class="titulos">Perfil del usuario</h2> 
+              <div class="desordenada">
+                    <input type="checkbox"  name= "Perfil del usuario" value="Comprar"> Comprador
+                    <input  type="checkbox"  name= "Perfil del usuario" value="vender"> vendedor
+                </div>
+              <h3 class="Intereses"><b>Intereses</b></h3>
+                    <ul class="desordenada">
+                    <li><input type="checkbox"  name= "Perfil del usuario" value="Electro"> Electro</li>
+                    <li><input type="checkbox"  name= "Perfil del usuario" value="Moda"> Moda</li>
+                    <li><input type="checkbox"  name= "Perfil del usuario" value="Hogar"> Hogar</li>
+                    <li><input type="checkbox"  name= "Perfil del usuario" value="Jugueteria"> Jugueteria</li>
+                    <li><input type="checkbox"  name= "Perfil del usuario" value="Vida sana"> Vida Sana</li></ul>
+          
+                    <label for="avatar"></label>
+                      <input class="datos" type="file" name="avatar"  id="avatar"><br>
+                      <label for="Contraseña"> </label>
+                      <input class="datos" type="password" name="Contraseña" placeholder="Contraseña"><br>
+                      <label for="Confirmar contraseña"></label>
+                      <input class="datos" type="password" name="Contraseña" value="" placeholder="Confirmar Contraseña"><br>
+                      <button class="envia" type="submit"> Enviar</button>
     </body>
 </html>
